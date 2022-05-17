@@ -1,0 +1,340 @@
+body {background-color: #C8E4D6;
+      margin: 0px;
+	    text-align: center;
+      font-family: 'Rubik', sans-serif;
+      }
+
+header {
+        color: white;
+        text-align: center;
+        padding: 5% 5% 0px 5%;
+        font-family: 'Rubik', sans-serif;
+        height: 17em}
+
+
+div {font-family: 'Rubik', sans-serif;}
+
+.whitelink {text-decoration: none;
+            color: white;}
+
+nav {margin: 0px auto;}
+
+nav ul {list-style-type: none; 
+	    padding-left: 0px;}
+
+nav ul li {display: inline-block;
+           padding: 10px;
+           border-radius:12px;
+           text-transform: uppercase;
+           font-size: 1em;
+           }
+
+nav ul li :hover {background-color: none;
+                  
+                  border-radius: 12px;
+                  font-size: 1em;
+                  color: white;
+                  position: static;}
+
+h1 {text-align: center;
+    margin: 0px auto;
+    font-family: 'Rubik', sans-serif;;
+    }
+
+footer {text-align: center;
+        color:white;
+        background-color: #2C4C40;
+        color: white;
+        display: inline-block;
+        height: 4em;
+        margin-top: 2em}
+
+.active {background-color: #C8E4D6;}
+li.active a {color: #207B6E;}
+
+.active2 {padding: 10px;
+          border-radius: 12px;
+          font-size: 1em;
+          background-color: #C8E4D6;
+          color: #207B6E;}
+
+#homeicon {font-size: 1em;
+           color: white;
+           padding: 2% ;}
+
+
+#testo1 {text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+        padding: 1em 1em 0em 1em;
+        }
+
+#testo2 {text-align: center;
+         font-family: 'Rubik', sans-serif;
+         font-size: 2em;
+         }
+
+#testo3 {text-align: center;
+         font-family: 'Rubik', sans-serif;
+         font-size: 1.5em;
+         padding: 1em 3em 1em 3em;
+         font-style: italic;
+       }
+
+#testo4 {text-align: center;
+         font-family: 'Rubik', sans-serif;
+         font-size: 1.5em;
+         padding: 0em 3em 2em 3em;
+         font-style: italic}
+
+#footericon:hover {opacity:1.0;}
+
+#footericon {text-align: center;
+             color:white;
+             padding: 1em;
+             font-size: 2em;
+             border-top-left-radius: 1em;
+             border-top-right-radius: 1em;
+             border-bottom-right-radius: 1em;
+             border-bottom-left-radius: 1em;
+             opacity: 0.5;
+             transition: opacity .25s ease-in-out;
+             }
+
+#playlist1 {max-width: 20em; 
+           margin: 20px 10%;
+           padding: 1em;
+           border-top-left-radius: 3em;
+           border-top-right-radius: 3em;
+           border-bottom-left-radius: 3em;
+           border-bottom-right-radius: 3em;}
+
+#playlist2 {max-width: 20em; 
+           margin: 20px 10%;
+           padding: 1em;
+           border-top-left-radius: 3em;
+           border-top-right-radius: 3em;
+           border-bottom-left-radius: 3em;
+           border-bottom-right-radius: 3em;}
+
+#playlist3 {max-width: 20em; 
+           margin: 20px 10%;
+           padding: 1em;
+           border-top-left-radius: 3em;
+           border-top-right-radius: 3em;
+           border-bottom-left-radius: 3em;
+           border-bottom-right-radius: 3em;}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 23em;
+  height: 23em;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.sectionshape {border-radius:12px;
+               background-color: #7FBCAB;
+               width:50%;
+               height:380;
+               font-family: 'Rubik', sans-serif;
+              text-align: justify;
+              padding: 1em;}
+
+.sectionshape2 {border-radius:12px;
+                background-color: #A1CEBD;
+                width:50%;
+                height:380;
+                font-family: 'Rubik', sans-serif;
+                text-align: justify;
+                padding: 1em;}
+
+.font2 {text-align: center;
+        }
+
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  text-align: center;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #7FBCAB; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #2C4C40;
+  color: white;
+  padding: 1em;
+  margin-top: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #207B6E;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 12px;
+  background-color: #A1CEBD;
+  padding: 20px;
+  margin-bottom: 3em
+} 
+
+.contacticon {background-color: #2C4C40;
+              width: 2.4em;
+              text-align: center;
+              color: white;
+              font-size: 1.2em;
+              padding: 0.5em;
+              border-radius: 12px;
+              text-decoration: none;
+              display: inline-block;
+              margin-right: 1em;}
+
+.contacticon:hover {text-decoration: none;
+                   color: #A1CEBD;}
+
+.greenlink {text-decoration: underline;
+            color: #2C4C40;}
+
+              text-align: center;
+              text-decoration: none;}
+
+.zoom2 {transition: transform .2s; /* Animation */
+  width: 23em;
+  height: 23em;
+  margin: 0 auto;
+}
+
+#aboutimg {max-width: 25%;
+           padding: 1em;
+           border-radius: 35px;
+           float: left;}
+
+.abouttext {padding: 1em;
+            text-align: justify;
+            font-size: 1.2em;
+            font-family: 'Rubik', sans-serif;
+            }
+
+
+ /* Dropdown Button */
+.dropbtn {
+  color: white;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 12px;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C8E4D6;
+  color: #207B6E;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+  border-radius: 12px;
+  width: 15em;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  background-color: #C8E4D6;
+  color: #207B6E;;
+  padding: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: block;
+  width: 15em;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #C8E4D6; color: #207B6E;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; color: #207B6E;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #C8E4D6; color: #207B6E; cursor: default;} 
+
+.playliststitle {text-align: center;
+                 font-size: 3em;
+                 padding-top: 0.5em;
+                 font-weight: bold;
+                 font-family: 'Rubik', sans-serif;
+                 color: #207B6E;
+                 text-decoration: underline;
+              }
+
+.h2text {text-align: center;
+         font-family: 'Rubik', sans-serif;
+         text-decoration: underline;
+         padding-top: 0.6em;
+         font-weight: bold;
+         color: #07360B;
+         font-size: 2.3em;}
+
+.h3text {text-align: center;
+         font-family: 'Rubik', sans-serif;
+         text-decoration: underline;
+         font-weight: bold;
+         color: #07360B;
+         }
+
+.h4text {text-align: center;
+         font-family: 'Rubik', sans-serif;
+         font-style: italic;
+         font-weight: bold;
+         color: #07360B;
+         padding-top: 0.5em}
+
+.paragraphtext {padding: 0em 4em 0em 4em;
+                font-family: 'Rubik', sans-serif;
+                text-align: center;
+                color: #041E06;
+                font-size: 1.2em;}
+
+.borderbox {border:12px;
+            border-style:solid;
+            border-color:#80a4a3;
+            padding: 0.5em;
+            border-style: groove;}
+
+.fotodoc1 {max-width: 60%;
+          padding: 1em;
+          border-radius: 30px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          }
+
+.fotodoc2 {max-width: 80%;
+          padding: 1em;
+          border-radius: 30px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;}
