@@ -15,11 +15,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0YF3J187LK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0YF3J187LK');
+</script>
+
  	 <title>Documentazione</title>
  </head>
- <body style="background-color:#C8E4D6" class="container-fluid">
+ <body class="container-fluid">
   <header style="background-image: url(images/blurhomeimg.jpg)">
-    <h1 style="font-size:3em; font-weight:bold; text-shadow:2px 2px darkgrey"> PLAYLISTS FOR MOODS <i id="homeicon" class="fa-solid fa-circle-play"></i> </h1>
+    <h1 id="titlestyle"> PLAYLISTS FOR MOODS <i id="homeicon" class="fa-solid fa-circle-play"></i> </h1>
+    <h2 id="subtitlestyle" class="borderbox2">physically, you're here. but mentally, you're there.</h2>
       <nav>
        <ul>
            <li><a class="whitelink" href="index.html">homepage</a></li>
@@ -53,13 +69,20 @@ il target è chiunque sia appassionato di musica, in qualsiasi parte del mondo. 
          <h4 class="h4text">OBIETTIVI E TARGET</h4>
          <p class="paragraphtext">playlists for moods è una piattaforma rivolta agli amanti della musica che cercano semplicemente qualche playlist da ascoltare nella loro quotidianità e anche a coloro che hanno voglia di sentirsi trasportare in una realtà diversa da quella in cui si trovano in un determinato momento. l’obiettivo di questo progetto è quello di, innanzitutto, fornire una raccolta di playlist a disposizione degli utenti e, inoltre, di fornire imput acustici, visivi (e anche, in alcuni casi, olfattivi) che assieme a dei testi/spunti di lettura, facciano sentire le persone in un altra realtà rispetto a quella in cui si trovano.</p>
          <h4 class="h4text">COMPETITORS</h4>
-         <p class="paragraphtext">generalmente parlando non ho trovato siti che facciano precisamente quello che si prefigge di fare Playlists for Moods. Esistono infatti molti siti che permettono di generare playlist in base al proprio umore, così come si possono trovare facendo una semplice ricerca su spotify, ma nessun sito si prefigge di dare ulteriori imput sensoriali o di lettura per migliorare l’esperienza di ascolto, sfruttando anche altre piattaforme social. e credo che questo sia il pro numero uno del sito.
+         <p class="paragraphtext">generalmente parlando non ho trovato siti che facciano precisamente quello che si prefigge di fare Playlists for Moods. Esistono infatti molti siti che permettono di generare playlist in base al proprio umore, così come si possono trovare playlist per i vari “mood” facendo una semplice ricerca su spotify, ma nessun sito si prefigge di dare ulteriori imput sensoriali o di lettura e testi che possano fungere da scenari al fine di far immergere l’utente nell’ascolto. tutto ciò sfruttando anche altre piattaforme social. e credo che questo sia il pro numero uno del sito.
 
-Mood on Spotify —> Pro: è una sezione del sito Spotify e ciò rende il tutto molto comodo.
-Contro (in realtà un pro per chi cerca playlist per le proprie giornate ma un contro: le playlist si rivolgono a un momento della giornata specifico e
-Mood Playlist —> Pro: permette di generare playlist in base al tuo umore e ai tuoi gusti. molto personalizzato.
-Contro: la grafica è molto basica e minimale.
-Playlist Generator</p>
+Spotify —> su Spotify si possono trovare intere playlist dedicate ai vari mood.
+Pro: 1) è sicuramente molto comodo per chiunque abbia un abbonamento a Spotify dal momento che queste playlist si trovano direttamente sul sito o sull’app di Spotify. 
+2) Molte di queste playlist sono in continuo aggiornamento.
+3) Queste playlist permettono di scoprire nuove canzoni e nuovi artisti di cui non si era a conoscenza.
+Contro: 1) Le playlist vengono fornite senza un’ulteriore descrizione, che magari aiuterebbe a capire ulteriormente la tematica della playlist (nonostante Spotify permetta di aggiungere descrizioni alle playlist)
+2) Trattandosi di un mix di generi completamente diversi si rischia di “incappare” in canzoni che non piacciono affatto.
+3) A volte le canzoni scelte non combaciano con il mood o con la tematica (ad esempio la playlist “Mercury Retrograde” presenta canzoni che non c’entrano affatto con la comunicazione o con le incomprensioni e i disguidi).
+
+Mood Playlist —> Pro: Permette di generare playlist in base al tuo umore e ai tuoi gusti musicali. Le playlist generate sono quindi molto personalizzate.
+Contro: Non vengono (ovviamente, visto che non è lo scopo del sito) suggeriti modi per migliorare l’esperienza di ascolto.
+Playlist Generator —> Pro: Permette di generare playlist interamente personalizzate.
+Contro: Anche questo sito si propone solo di fare playlist in base all’umore, senza consigliare come ascoltare le playlist che vengono generate.</p>
          <h3 class="h3text"> STRUTTURA E LAYOUT</h3>
          <h4 class="h4text">ARCHITETTURA</h4>
          <div><img class="fotodoc1" src="images/albero.png"></div>
@@ -68,9 +91,9 @@ Playlist Generator</p>
          <div><img class="fotodoc2" src="images/projectmanagement2.png"></div>
          <div><img class="fotodoc2" src="images/projectmanagement3.png"></div>
          <h4 class="h4text">LOOK AND FEEL</h4>
+         <p class="paragraphtext">La grafica del sito è stata progettata in modo tale da suggerire un senso di calma in chiunque lo visiti, dal momento che sentirsi a proprio agio è il primo step per immergersi totalmente nell’ascolto. La grafica è infatti molto minimale e i colori sulle tonalità del verde, colore della calma per eccellenza. L’altro motivo per cui ho scelto di utilizzare varie tonalità di verde è stato per ricordare visivamente i colori principali di Spotify, piattaforma che ospita le playlist create per il sito, ossia il verde e il nero. I font utilizzati sono Roboto (per i titoli e il corpo) e Courgette per il sottotitolo della header. Le immagini e le grafiche presenti nel sito consistono in foto scattate da me, immagini create/modificate con Procreate for iPad e fotografie scaricate da google immagini.</p>
          <h4 class="h4text">LINGUAGGI E STRUMENTI</h4>
-      <p class="paragraphtext">Linguaggi: HTML5, CSS e PHP</p>
-     <p class="paragraphtext"> Strumenti: Sublime text 2.0, Procreate for iPad, Bootstrap, w3schools, StackOverflow, Fontawesome, Google Fonts, Google Images, Github, GeeksforGeeks, Spotify.
+      <p class="paragraphtext">Linguaggi: HTML5, CSS e PHP<br> Strumenti: Sublime text 2.0, Procreate for iPad, Bootstrap, w3schools, StackOverflow, Fontawesome, Google Fonts, Google Images, Github, GeeksforGeeks, YouTube, Spotify.
       </p>
     </section>
     <section>
