@@ -22,6 +22,14 @@ div {font-family: 'Rubik', sans-serif;}
 .whitelink {text-decoration: none;
             color: white;}
 
+
+.whitelink2 {text-decoration: none !important;
+            color: white !important;}
+
+.whitelink2 :hover {text-decoration: none !important;
+                    color: white !important;
+                    display: block !important;}
+
 nav {margin: 0px auto;}
 
 nav ul {list-style-type: none; 
