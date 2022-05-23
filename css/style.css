@@ -12,7 +12,9 @@ header {
         text-align: center;
         padding: 3% 5% 0px 5%;
         font-family: 'Rubik', sans-serif;
-        height: 22em}
+        height: 22em;
+       
+        }
 
 
 
@@ -136,26 +138,29 @@ li.active a {color: #207B6E;}
              transition: opacity .25s ease-in-out;
              }
 
-#playlist1 {max-width: 100%;
-            width: 23em;
-            height: 23em; 
+#playlist1 {max-width: 90%;
+             
             display: block;
+            padding-left: 5%;
+           padding-right: 5%;
           position: absolute;
            border-radius: 16px;
            float: left;}
 
-#playlist2 {max-width: 100%;
-            width: 23em;
-            height: 23em;  
+#playlist2 {max-width: 90%;
+           
            display: block;
+           padding-left: 5%;
+           padding-right: 5%;
            position: absolute;
            border-radius: 12px;
            }
             
-#playlist3 {max-width: 100%;
-            width: 23em;
-            height: 23em;  
+#playlist3 {max-width: 90%;
+         
             display: block;
+            padding-left: 5%;
+           padding-right: 5%;
             position: absolute;
            border-radius: 16px;
           }
@@ -166,8 +171,8 @@ li.active a {color: #207B6E;}
 
 .zoom {
   transition: transform .2s; /* Animation */
-  width: 23em;
-  height: 23em;
+  width: 26em;
+  height: 26em;
   margin: 0 auto;
 }
 
