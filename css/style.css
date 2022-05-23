@@ -136,21 +136,22 @@ li.active a {color: #207B6E;}
              transition: opacity .25s ease-in-out;
              }
 
-#playlist1 {max-width: 20em; 
+#playlist1 {max-width: 100%; 
           
           
            border-radius: 16px;}
 
-#playlist2 {max-width: 20em; 
+#playlist2 {max-width: 100%; 
         
            border-radius: 16px;}
 
-#playlist3 {max-width: 20em; 
-        
+#playlist3 {max-width: 100%; 
+          
           
            border-radius: 16px;}
 
-.morepadding {padding: 2em 10%;}
+.morepadding {padding: 1em;
+              }
 
 
 .zoom {
