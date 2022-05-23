@@ -136,21 +136,31 @@ li.active a {color: #207B6E;}
              transition: opacity .25s ease-in-out;
              }
 
-#playlist1 {max-width: 100%; 
+#playlist1 {max-width: 100%;
+            width: 23em;
+            height: 23em; 
             display: block;
-          
-           border-radius: 16px;}
+          position: absolute;
+           border-radius: 16px;
+           float: left;}
 
-#playlist2 {max-width: 100%; 
+#playlist2 {max-width: 100%;
+            width: 23em;
+            height: 23em;  
            display: block;
-           border-radius: 16px;}
+           position: absolute;
+           border-radius: 12px;
+           }
             
-#playlist3 {max-width: 100%; 
+#playlist3 {max-width: 100%;
+            width: 23em;
+            height: 23em;  
             display: block;
-          
-           border-radius: 16px;}
+            position: absolute;
+           border-radius: 16px;
+          }
 
-.morepadding {padding: 3em;
+.morepadding {padding: 1em;
               }
 
 
