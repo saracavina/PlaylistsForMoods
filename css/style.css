@@ -138,41 +138,44 @@ li.active a {color: #207B6E;}
              transition: opacity .25s ease-in-out;
              }
 
-#playlist1 {max-width: 90%;
+#playlist1 {max-width: 80%;
              
             display: block;
             padding-left: 5%;
            padding-right: 5%;
           position: absolute;
-           border-radius: 16px;
+           border-radius: 60px;
            float: left;}
 
-#playlist2 {max-width: 90%;
+#playlist2 {max-width: 80%;
            
            display: block;
            padding-left: 5%;
            padding-right: 5%;
            position: absolute;
-           border-radius: 12px;
+           border-radius: 60px;
            }
             
-#playlist3 {max-width: 90%;
+#playlist3 {max-width: 80%;
          
             display: block;
             padding-left: 5%;
            padding-right: 5%;
             position: absolute;
-           border-radius: 16px;
+           border-radius: 60px;
           }
 
-.morepadding {padding: 1em;
+.morepadding {padding-top: 5%;
+              padding-right: 5%;
+              
+              padding-left: 5%;
               }
 
 
 .zoom {
   transition: transform .2s; /* Animation */
-  width: 26em;
-  height: 26em;
+  width: 24em;
+  height: 24em;
   margin: 0 auto;
 }
 
