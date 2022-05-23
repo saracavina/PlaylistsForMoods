@@ -137,20 +137,20 @@ li.active a {color: #207B6E;}
              }
 
 #playlist1 {max-width: 100%; 
-          
+            display: block;
           
            border-radius: 16px;}
 
 #playlist2 {max-width: 100%; 
-        
+           display: block;
            border-radius: 16px;}
-
+            
 #playlist3 {max-width: 100%; 
-          
+            display: block;
           
            border-radius: 16px;}
 
-.morepadding {padding: 1em;
+.morepadding {padding: 3em;
               }
 
 
