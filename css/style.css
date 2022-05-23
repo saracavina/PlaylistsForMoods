@@ -95,7 +95,8 @@ li.active a {color: #207B6E;}
          font-weight: bold;
          color: #013220;
          margin-right: 1em;
-         margin-left: 1em;}
+         margin-left: 1em;
+         }
 
 #testo3 {text-align: center;
          font-family: 'Rubik', sans-serif;
@@ -136,28 +137,18 @@ li.active a {color: #207B6E;}
              }
 
 #playlist1 {max-width: 20em; 
-           padding: 1em;
-           padding-top: 2em;
-           border-top-left-radius: 3em;
-           border-top-right-radius: 3em;
-           border-bottom-left-radius: 3em;
-           border-bottom-right-radius: 3em;}
+          
+          
+           border-radius: 16px;}
 
 #playlist2 {max-width: 20em; 
-            padding: 1em;
-           padding-top: 2em;
-           border-top-left-radius: 3em;
-           border-top-right-radius: 3em;
-           border-bottom-left-radius: 3em;
-           border-bottom-right-radius: 3em;}
+        
+           border-radius: 16px;}
 
 #playlist3 {max-width: 20em; 
-           padding:1em;
-           padding-top: 2em;
-           border-top-left-radius: 3em;
-           border-top-right-radius: 3em;
-           border-bottom-left-radius: 3em;
-           border-bottom-right-radius: 3em;}
+        
+          
+           border-radius: 16px;}
 
 .morepadding {padding: 2em 10%;}
 
@@ -380,7 +371,8 @@ input[type=submit]:hover {
             border-style:solid;
             border-color:#80a4a3;
             padding: 0.5em;
-            border-style: groove;}
+            border-style: groove;
+           }
 
 /*.borderbox2 {border: 2px;
              border-style: solid;
