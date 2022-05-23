@@ -77,7 +77,7 @@ li.active a {color: #207B6E;}
           border-radius: 12px;
           font-size: 1em;
           background-color: #C8E4D6;
-          color: #207B6E;}
+          color: #207B6E !important;}
 
 #homeicon {font-size: 1em;
            color: white;
@@ -110,7 +110,7 @@ li.active a {color: #207B6E;}
 #testo4 {text-align: center;
          font-family: 'Rubik', sans-serif;
          font-size: 1.5em;
-         padding: 0em 1em 1em 1em;
+         padding: 0em 1em 0em 1em;
          font-style: italic}
 
 #testo5 {text-align: center;
@@ -122,7 +122,7 @@ li.active a {color: #207B6E;}
 #testo6 {text-align: center;
          font-family: 'Rubik', sans-serif;
          font-size: 2em;
-         padding: 0em 3em 0em 3em}
+         padding: 0em 3em 1em 3em}
 
 #footericon:hover {opacity:1.0;}
 
@@ -188,9 +188,8 @@ li.active a {color: #207B6E;}
                width:50%;
                float:right;
                font-family: 'Rubik', sans-serif;
-              text-align: justify;
+              text-align: left;
               padding: 1em;
-              margin: 1em;
               display: inline-block;
               font-size: 1.3em}
 
@@ -291,10 +290,14 @@ input[type=submit]:hover {
 
 .abouttext {padding: 1em;
             text-align: justify;
+            font-size: 1.5em;
+            font-family: 'Rubik', sans-serif;
+            }
+.abouttext2 {padding: 1em;
+            text-align: justify;
             font-size: 1.2em;
             font-family: 'Rubik', sans-serif;
             }
-
 
  /* Dropdown Button */
 .dropbtn {
@@ -382,7 +385,7 @@ input[type=submit]:hover {
 
 .paragraphtext {padding: 0em 4em 0em 4em;
                 font-family: 'Rubik', sans-serif;
-                text-align: center;
+                text-align: justify;
                 color: #041E06;
                 font-size: 1.2em;}
 
@@ -435,3 +438,7 @@ input[type=submit]:hover {
                  display: inline-block;
                  border-radius:12px*/
                  }
+
+  .alignment {align=left;}
+
+
