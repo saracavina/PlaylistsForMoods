@@ -135,7 +135,7 @@ li.active a {color: #207B6E;}
              border-bottom-right-radius: 1em;
              border-bottom-left-radius: 1em;
              opacity: 0.6;
-             transition: opacity .25s ease-in-out;
+             transition: opacity .10s ease-in-out;
              }
 
 #playlist1 {max-width: 80%;
@@ -441,4 +441,44 @@ input[type=submit]:hover {
 
   .alignment {align=left;}
 
+#img6 {max-width: 60%;
+          padding: 1em;
+          border-radius: 30px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 2em;} 
 
+#img7 {max-width: 60%;
+          padding: 1em;
+          border-radius: 30px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto}
+ 
+#img8 {max-width: 60%;
+          padding: 1em;
+          border-radius: 30px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto}
+
+#img9 {max-width: 40%;
+          padding: 1em;
+          border-radius: 30px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto}
+
+#img10 {max-width: 80%;
+          padding: 1em;
+          border-radius: 30px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto}
+
+
+.didascalie {font-family: 'Rubik', sans-serif;
+             font-size: 1.5em;
+             text-align: center;
+            padding-bottom: 1em;}
