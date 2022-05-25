@@ -31,7 +31,7 @@
 </script>
 
    <title>Send us your playlist</title>
-   <link rel="icon"  href="images/titleimg.png" type="image/gif/png">
+    <link rel="icon"  href="images/titleimg.png" type="image/gif/png">
  </head>
  <body class="container-fluid">
   <header style="background-image: url(images/blurhomeimg.jpg)">
@@ -50,7 +50,7 @@
                  <a href="woods.html">MOUNTAIN WOODS</a>
                 </li>
               </div>
-              
+
                <li><a class="whitelink" href="about.html">about/contact us</a></li>
                <li class="active"><a class="whitelink" href="#">send us your playlist</a></li>
        </ul>
@@ -61,7 +61,7 @@
       <h2 id="font2" style="text-align:center; padding:1em">Send us your playlist!</h2>
 
        <div class="container">
-  <form id="fcf-form-id" class="fcf-form-class" action="https://formsubmit.co/playlistsformoods@gmail.com" method="POST" style="text-align:center">
+  <form onsubmit="sendEmail(); reset(); return false">
 
     <label for="firstname">First Name</label>
     <input type="text" id="firstname" name="firstname" placeholder="Your name..">
@@ -69,8 +69,8 @@
     <label for="email">E-mail</label>
     <input type="text" id="email" name="email" placeholder="Your e-mail..">
 
-   <label for="subject">Country</label>
-    <input type="text" id="subject" name="subject" placeholder="Where you're from..">
+   <label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="Where you're from..">
 
     <label style="padding-top:1em; padding-bottom:0.5em" for="subject">Playlist link</label>
     <textarea id="message" name="message" placeholder="Paste your playlist link here..." style="height:100px"></textarea>
@@ -80,7 +80,22 @@
   </form>
 </div> 
     </section>
-   
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script> function sendEmail(){
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "playlistsformoods@gmail.com",
+            Password : "bellofaresiti.00",
+            To : 'playlistsformoods@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "New Contact Form Enquiry",
+            Body : "Name: " + document.getElementById("firstname").value
+                          + "<br> Email: "  + document.getElementById("email").value
+                          + "<br> Country: "  + document.getElementById("country").value
+                          + "<br> PlaylistLink: "  + document.getElementById("message").value
+        }).then(
+          message => alert("Playlist Sent Successfully, thank you!")
+        );</script>
     </main>
      <footer>
       <nav>
