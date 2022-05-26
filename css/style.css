@@ -221,8 +221,6 @@ li.active a {color: #207B6E;}
         }
 
 
-
- /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   text-align: center;
   width: 100%; /* Full width */
@@ -235,7 +233,6 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #2C4C40;
   color: white;
@@ -246,12 +243,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: #207B6E;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
   border-radius: 12px;
   background-color: #A1CEBD;
@@ -300,7 +297,7 @@ input[type=submit]:hover {
             font-family: 'Rubik', sans-serif;
             }
 
- /* Dropdown Button */
+
 .dropbtn {
   color: white;
   padding: 10px;
@@ -308,14 +305,13 @@ input[type=submit]:hover {
   border-radius: 12px;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
   border-radius: 12px;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -324,11 +320,11 @@ input[type=submit]:hover {
   box-shadow: 0px 8px 16px 0px;
   z-index: 1;
   border-radius: 12px;
-  width: 16em;
+  width: 15em;
 
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
   background-color: #C8E4D6;
   color: #207B6E;;
@@ -339,13 +335,13 @@ input[type=submit]:hover {
   width: 15em;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {background-color: #C8E4D6; color: #207B6E;}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {display: block; color: #207B6E;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown:hover .dropbtn {background-color: none;
                   font-size: 1em;
                   color: #C8E4D6; 
